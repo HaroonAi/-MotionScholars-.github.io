@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html>
+	<head>
+		
+<!--Remmember to put same name in tilte to work well with search engines-->
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Motion Scholars</title>
+<!-- TemplateEndEditable -->
+<link href = "../css/styles.css" rel ="stylesheet" type = "text/css" media = "screen">
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&display=swap" rel="stylesheet">
+		
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&display=swap" rel="stylesheet">
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+	</head>
+	
+	
+	<body>
+		<div id="wrapper">
+<!--first hearder is my logo and my sign in to be member page-->
+				<div id="Bigheader">
+					<div id="Logo">
+						<a href = "../index.html">
+							<img src = "../logo/same AS.jpg">
+						</a>
+					</div>
+		
+					<div id="SignIn">
+						<ul>
+							<li style = "display: none;">
+								<a target = "_blank" href = "../Sings pages/signIn.html"><button>Sign in</button></a>
+							</li>
+							<li style = "display: none;">
+								<a href = "../Sings pages/SingUp.html"> <button>Sign up</button></a>
+							</li>
+						</ul>			
+					</div>
+				</div>
+	
+<!--Top area is the place where naviagate to different section like about-->	
+			<div id="Topnav">
+				<ul>
+					<li><a href = "../index.html">Home</a></li>
+					<li><a href = "../About page/about.html">About</a></li>
+					<li><a href = "../Award page/Awards.html">Awards</a></li>
+					<li><a href = "../Contact page/contacts.html">contacts</a></li>
+					<li style = "display: none;"><a href = "../Null page/Null.html">Null</a></li>
+				</ul>
+			</div>
+	<!-- TemplateBeginEditable name="ContentEdit" -->
+<!--Banner area is located moving pictures-->
+			<div id = "banner">
+				<img src = "../images/Banner/typint.jpg">
+			</div>
+			
+	
+<!--Main content of the pages on one page. it can change accordingly-->
+			<div id="content-wrapper">
+		
+				<div id="content">
+						<h1>Welcome to Motion Scholars</h1>
+						<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.</p>
+						<h2>This a subheading for more deatails</h2>
+						<p>To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. </p>
+				</div>
+		
+		
+			<div id = "box">
+						<img src = "../images/250x200.png">
+						<h2>subbbb tiel</h2>
+						<p>you paragoht goes here say wahta you want to say or meessage dont matter.</p>
+			</div>
+			</div>
+	<!-- TemplateEndEditable -->
+<!--footer is only line to say all rights reserved-->
+			<div id="foter">
+					<p>&copy; Copyright 2021 | All rights Reserved | Motion Scholars, Kabul.</p>
+			</div>
+		</div>
+	</body>
+</html>

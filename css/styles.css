@@ -1,0 +1,121 @@
+/* CSS Document */
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+body 				{background-image: url("../images/website bg/small.jpg");
+					background-repeat: repeat;
+					font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+					}
+
+h1,h2,h3 			{font-family:'Open Sans Condensed', Cambria, "Hoefler Text", "Liberation Serif", Times, 								"Times New Roman", "serif"
+					}
+h1, h2					{color:#7068CB;}
+
+#main_wrapper 		{ border-top: solid;}
+
+#wrapper			{ width: 900px; margin: 10px auto;
+						background-color: #fff;
+						padding: 0 30px;
+					}
+
+#Bigheader 			{	}
+#Logo				{float: left; margin: 10px 0 ;}
+#SignIn				{float: right; margin: 40px 0;}
+
+#SignIn ul li		{display: inline; list-style-type: none;}
+
+#Topnav				{clear: both;}
+
+#Topnav	ul          {padding: 20px 0; margin: 0;
+					border-top: 1px #000 dotted;
+					}
+#Topnav	ul li		{display: inline; list-style-type: none;
+					margin: 0 50px 0 0;}
+
+
+#Topnav a:link 		{ font-weight: bold; text-decoration: none; color: #000000;	}
+#Topnav a:visited 	{ font-weight: bold; text-decoration: none;	color: #000000; }
+#Topnav a:active 	{ font-weight: bold; text-decoration: none; color: #000000; }
+#Topnav a:hover 	{ font-weight: bold; text-decoration: underline; color: #E4AC19;	}
+#Topnav a:focus 	{ font-weight: bold; text-decoration: none;	color: #E4AC19; }
+
+
+#content-wrapper	{float: none; text-align-last: center;}
+
+#content p 			{font-size: 15px; line-height: 180%;}
+#foter				{clear: both;  padding: 5px 0;
+						border-top: 1px #000 dotted;}
+
+#foter p  			{text-align: center; font-size: 14px; font-weight: bold;}
+
+#scholarship		{ padding: 10px; border-top: 1px #000 solid;
+									 border-left: 1px #000 solid;
+									 border-right: 1px #000 solid;}
+h3 					{text-decoration: underline;}
+#buton 				{ text-align: center;}
+
+h5 					{color: #C32A2C;}
+
+/*Banner slider code*/
+#banner				{ position: relative;  
+						width: 3600px;
+						animation-name: slideranimation;
+						animation-duration: 20s;
+						animation-iteration-count: infinite;
+					}
+
+#banner	img			{ float: left;  }
+
+@keyframes slideranimation {  0% { left: 0px;}
+								20% { left: 0px; }
+									25% {left: -900px;  }
+										45%{left: -900px;}
+											50%{left: -1800px;}
+												70%{left:-1800px;}
+													75%{left: -2700px;}
+							}
+#container			{ width: 900px; overflow: hidden;}
+/*End of banner slider*/
+
+
+/*Form design*/
+#userinput ol li 	{list-style-type: none;}
+
+input 				{display: block; width: 350px; padding: 2px;  margin: 3px;}
+
+label 				{display: block; margin-top: 10px;}
+
+.submit 			{ width: 100px; margin-top: 10px;}
+
+/*page design divided into two column*/
+
+#userinput 			{float: left;}
+#right-side   		{float: right; width: 300px; margin-top: 20px; padding: 10px;
+						border-left: #5A5A64 dashed; border-top: #5A5A64 solid; border-right: #442CAE ridge;
+					padding-bottom: 900px;}
+
+
+/*formatting the anker link of scholarship in award page*/
+
+#contents-wrappery		a:link 			{ text-decoration: none; color: #244C9C;}
+#contents-wrappery		a:visited  		{ text-decoration: none; color: #414968;}
+#contents-wrappery		a:active  		{	}
+#contents-wrappery		a:hover  		{ color:#5CAC6E;	}
+#contents-wrappery		a:focus 		{ color:#B3225A;	}
+/* end of anker formating for awards */
+
+#bottomborder 							{border-bottom:#245E7B solid;}
+#bottomborder 							{border-top: #245E7B solid;}
+/* designing the content and box area */
+#content-mainpage  						{float: left; width: 500px; padding: 10px;}
+#box-mainpage  							{float: right; width: 300px; padding-top: 20px;}
+
+
+
+
+#content-mainpage p       {text-align: justify;}
+#box-mainpage p, h4    	  {text-align: center;}

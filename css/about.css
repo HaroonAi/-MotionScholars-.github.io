@@ -1,0 +1,32 @@
+/* CSS Document */
+
+
+#wrapper		{width: auto;	margin: 10px auto;}
+
+#headerTop		{background-color:#1414D8;}
+#Topnav			{background-color: #1CEFDE;}
+#Banner			{text-align: center; margin: 0;}
+#contents		{padding: 70px; text-align: center; margin: 0;}
+#footer			{background-color: beige;}
+
+#Topnav			{clear: both;}
+#Topnav	ul 		{padding: 20px; margin: 0; text-align: center;}		
+#Topnav ul li  	{display: inline; padding-right: 80px;}
+
+#Topnav a:link 		{ text-decoration: none; font-size: 17px; color: #000000;	}
+#Topnav a:visited 	{ text-decoration: none; font-size: 17px; color: #000000;	}
+#Topnav a:active 	{ text-decoration: none; font-size: 17px; color: #000000;	}
+#Topnav a:hover 	{ text-decoration: underline; font-size: 17px; color: #E4AC19;	}
+#Topnav a:focus 	{ text-decoration: none; font-size: 17px; color: #E4AC19;   }
+
+
+#Logo			{float: left;}
+#Rightside		{float: right; padding: 40px;}
+
+
+#footer			{align-content: center; text-align: center; padding: 20px;}
+
+#teamPic 		{ text-align: center;}
+
+
+
